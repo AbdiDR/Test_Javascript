@@ -35,16 +35,8 @@ function newElement() {
   var inputValue = document.getElementById("myInput").value;
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
-  var list = [];
-  list.push(inputValue);
-  for (i = 0; i < myNodelist.length; i++) {
-    list[i] == inputValue;
-    inputValue = false;
-  }
   if (inputValue === "") {
     alert("Tuliskan sesuatu!");
-  } else if (inputValue == false) {
-    alert("Todo List sudah ada!");
   } else {
     document.getElementById("myUL").appendChild(li);
   }
