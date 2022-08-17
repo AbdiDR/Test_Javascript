@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px #c8c6c6;
+}
+.input-field {
+  width: 75%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f6f2;
+  border: 1px solid #c8c6c6;
+  border-radius: 10px;
+  border-bottom-width: 3px;
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+}
+ul li:hover {
+  background: #ddd;
+  transition: 0.3s;
+}
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  transition: 0.3s;
+  color: white;
+}
+.addBtn {
+  padding: 5px;
+  width: 25%;
+  background-color: #4b6587;
+  border-color: #3c516c;
+  color: white;
+  transition: 0.5s;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #72c0a1;
+  border-color: #508671;
+  transition: 0.3s;
+}
